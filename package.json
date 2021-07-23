@@ -1,6 +1,6 @@
 {
-  "name": "mobx-test",
-  "version": "0.1.0",
+  "name": "simple-mobx-jest",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -32,7 +32,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
+    "test": "react-scripts test --coverage --coverageDirectory=report",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
