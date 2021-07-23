@@ -1,2 +1,3 @@
-# simple-mobx-jest
-Simple project using mobx, jest, react, typescript.
+# Simple Mobx and Jest
+
+Simplest project to show how to use mobx and jest with React Js, Typescript and Enzyme

@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main > .bt {
+  min-width: 5em;
+  height: 2.3em;
+  margin: 0 1em;
+}
