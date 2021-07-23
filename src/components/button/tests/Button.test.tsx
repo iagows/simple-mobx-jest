@@ -1,6 +1,6 @@
 import React from "react";
 
-import { mount, shallow } from "enzyme";
+import { shallow } from "enzyme";
 
 import Button from "../Button";
 
@@ -20,6 +20,12 @@ describe("<Button>", () => {
   };
 
   const buttonWrapper = shallow(<Button {...props} />);
+
+  describe("When mounted", () => {
+    it("should have snapshot", () => {
+      expect(buttonWrapper).toMatchSnapshot();
+    });
+  });
 
   it("testando o conteúdo", () => {
     const content = buttonWrapper.find(".bt");
